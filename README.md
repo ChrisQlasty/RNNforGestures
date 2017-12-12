@@ -11,8 +11,8 @@ In order to run the script from the console type:
 ```
 python RNNrandHyp.py my_option my_gpu_memo my_hml
 ```
-where *my_option* should be a number:
-* 0
-* 1
-* 2
-* 3 
+where with *my_option* equal to:
+ * 0 - a single run on **raw** dataset, with predefined values of hyperparameters is evaluated
+ * 1 - **raw** dataset is selected, hyperparameters are sampled
+ * 2 - **features** dataset is selected, hyperparameters are sampled
+ * 3 - **HLfeatures** dataset is selected, hyperparameters are sampled
