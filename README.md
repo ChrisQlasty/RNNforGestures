@@ -20,5 +20,5 @@ where with *my_option* equal to:
 
 ---
 ### References
-[1] *"Analysis of Properties of an Active Linear Gesture Sensor"* [a href="https://www.degruyter.com/downloadpdf/j/mms.2017.24.issue-4/mms-2017-0052/mms-2017-0052.pdf"]Link[/a]
+[1] *"Analysis of Properties of an Active Linear Gesture Sensor"* [Link](https://www.degruyter.com/downloadpdf/j/mms.2017.24.issue-4/mms-2017-0052/mms-2017-0052.pdf)
 [2]
