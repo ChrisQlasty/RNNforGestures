@@ -3,6 +3,6 @@ Materials and source code utilized for gesture recognition employing the optical
 
 ### Usage
 The script needs following packages to be installed:  \n
-'''
+```
 sklearn, tensorflow,numpy, pandas, enum, datetime, sys
-'''
+```
