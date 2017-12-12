@@ -1,5 +1,5 @@
 # RNNforGestures
-This repo contains materials, source code and usage description of a script which trains and evaluates Recurrent Neural Networks (RNNs) model applied for hand gesture recognition. The input data comes from the optical linear sensor described in [1-2].
+This repo contains materials, source code and usage description of a script, which trains and evaluates Recurrent Neural Networks (RNNs) applied for hand gesture recognition. The input data comes from the optical linear sensor described in [1-2].
 
 ### Usage
 The RNNrandHyp.py python script needs following packages to be installed:
@@ -21,4 +21,4 @@ where with *my_option* equal to:
 ---
 ### References
 [1] [*"Analysis of Properties of an Active Linear Gesture Sensor"* K. Czuszynski, J. Ruminski, J. Wtorek](https://www.degruyter.com/downloadpdf/j/mms.2017.24.issue-4/mms-2017-0052/mms-2017-0052.pdf)  
-[2]
+[2] [*"Pose classification in the gesture recognition using the linear optical sensor"* K. Czuszynski, J. Ruminski, J. Wtorek](http://ieeexplore.ieee.org/document/8004989/)  
