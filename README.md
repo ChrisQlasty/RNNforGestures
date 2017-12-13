@@ -15,7 +15,7 @@ where with *my_option* equal to:
  * 0 - a single run on **raw** dataset, with predefined values of hyperparameters is evaluated,
  * 1 - **raw** dataset is selected, hyperparameters are sampled,
  * 2 - **features** dataset is selected, hyperparameters are sampled,
- * 3 - **HLfeatures** dataset is selected, hyperparameters are sampled, <br />
+ * 3 - **HLfeatures** dataset is selected, hyperparameters are sampled, <br />  
 with *my_gpu_memo* in the range of 0 to 100:
  * a given percentage of GPU card memory is allocated for the script. In practice, less than 4GB is enough in this case. Therefore, if one has a 4GB card the *my_gpu_memo* could be set to 80 or 100, whereas for 16GB 20 or 25, <br />
 with *my_hml*:  
