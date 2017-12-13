@@ -23,9 +23,9 @@ with *my_hml*:
 
 
 ##### Example:
-In order to evaluate 16 trials on **raw** dataset, with randomly sampled hyperparameters on specific GPU card, allocating 25% of its memory run:
+In order to evaluate 16 trials on **raw** dataset, with randomly sampled hyperparameters on 0th GPU card, allocating 25% of its memory run:
 ```
-python RNNrandHyp.py 1 25 16
+CUDA_VISIBLE_DEVICES=0 python RNNrandHyp.py 1 25 16
 ```
 
 ---
