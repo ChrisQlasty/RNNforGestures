@@ -16,10 +16,17 @@ where with *my_option* equal to:
  * 1 - **raw** dataset is selected, hyperparameters are sampled,
  * 2 - **features** dataset is selected, hyperparameters are sampled,
  * 3 - **HLfeatures** dataset is selected, hyperparameters are sampled, <br />
-where with *my_gpu_memo* in the range of 0 to 100:
+with *my_gpu_memo* in the range of 0 to 100:
  * a given percentage of GPU card memory is allocated for the script. In practice, less than 4GB is enough in this case. Therefore, if one has a 4GB card the *my_gpu_memo* could be set to 80 or 100, whereas for 16GB 20 or 25, <br />
-where with *my_hml*:  
+with *my_hml*:  
  * a number telling the script how many loops with random search trials should be executed. If you wish to execute 100 trials and have 16GB card, you can run 4 scripts per 25 trials and *my_gpu_memo*=25.
+
+
+##### Example:
+In order to evaluate 16 trials on **raw** dataset, with randomly sampled hyperparameters on specific GPU card, allocating 25% of its memory run:
+```
+python RNNrandHyp.py 1 25 16
+```
 
 ---
 ### References
