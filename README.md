@@ -32,5 +32,5 @@ CUDA_VISIBLE_DEVICES=0 python RNNrandHyp.py 1 25 16
 
 ---
 ### References
-[1] [*"Analysis of Properties of an Active Linear Gesture Sensor"* K. Czuszynski, J. Ruminski, J. Wtorek](https://www.degruyter.com/downloadpdf/j/mms.2017.24.issue-4/mms-2017-0052/mms-2017-0052.pdf)  
+[1] [*"Analysis of Properties of an Active Linear Gesture Sensor"* K. Czuszynski, J. Ruminski, J. Wtorek](https://www.degruyter.com/view/j/mms.2017.24.issue-4/mms-2017-0052/mms-2017-0052.xml?format=INT)  
 [2] [*"Pose classification in the gesture recognition using the linear optical sensor"* K. Czuszynski, J. Ruminski, J. Wtorek](http://ieeexplore.ieee.org/document/8004989/)  
