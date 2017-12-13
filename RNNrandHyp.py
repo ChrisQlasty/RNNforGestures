@@ -239,7 +239,7 @@ class RNNclassifier:
                                     for _ in range(n_layers)]
 
                 if DoDropout:
-                    cells_drop = [tf.nn.rnn_cell.DropoutWrapper(cell, output_keep_prob=what_keep_prob, seed=1) for cell in layers]
+                    cells_drop = [tf.nn.rnn_cell.DropoutWrapper(cell, output_keep_prob=what_keep_prob) for cell in layers]
                     multi_layer_cell = tf.nn.rnn_cell.MultiRNNCell(cells_drop)
                 else:
                     multi_layer_cell = tf.nn.rnn_cell.MultiRNNCell(layers)
