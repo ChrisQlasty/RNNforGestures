@@ -11,6 +11,7 @@ Overview of readme:
 The hand gesture recognition with sensors of low complexity and of low power demands is of interest especially in the context of mobile devices. The RNNrandHyp.py script available in this repo is dedicated to optimize the hyperparameters of a Recurrent Neural Network in order to recognize a set of 27 gestures with the highest possible accuracy. The input data comes from the optical linear sensor described in [1-2].
 
 Some of the analysis of the results are presented in the [notebook.](RNN_analyzer.ipynb)
+The more detailed description of the utilized sensor, results and discussion are presented in our the article from the IEEE Sensors Journal [Gesture Recognition with the Linear Optical Sensor and Recurrent Neural Network.](https://ieeexplore.ieee.org/document/8357549/)
 
 ### Usage
 The RNNrandHyp.py python script needs following packages to be installed:
