@@ -16,7 +16,7 @@ More detailed description of the sensor, results and discussion are presented in
 ### Usage
 The RNNrandHyp.py python script needs following packages to be installed:
 ```
-sklearn, tensorflow, numpy, pandas, enum, datetime, sys
+sklearn, tensorflow, numpy, pandas, Enum, enum34, datetime, sys
 ```
 
 In order to run the script from console type:
