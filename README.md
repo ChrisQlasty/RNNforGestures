@@ -14,7 +14,7 @@ Some of the analysis of the results are presented in the [notebook.](RNN_analyze
 More detailed description of the sensor, results and discussion are presented in our article from the [**IEEE Sensors Journal**](https://ieeexplore.ieee.org/document/8357549/) [3].
 
 ### Usage
-The [RNNrandHyp.py](RNNrandHyp.py)<br /> python script needs following packages to be installed:
+The [RNNrandHyp.py](RNNrandHyp.py) python script needs following packages to be installed:
 ```
 sklearn, tensorflow, numpy, pandas, Enum, enum34, datetime, sys
 ```
